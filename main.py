@@ -1,0 +1,15 @@
+print("enter eas code:")
+eascode = int(input(""))
+
+if eascode == 0:
+    print("you selected tornado warning")
+    print("issue start-time")
+    startTime = input("")
+    print("issue End-Time")
+    EndTime = input("")
+    print("issue affected area")
+    affected_area = input("")
+    print("issue speed")
+    speed = input("")
+    print("issue direction")
+    direction = input("")
